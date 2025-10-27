@@ -33,7 +33,7 @@
 ```$ adb shell am instrument -w -m    -e debug false -e class 'ru.iteco.fmhandroid.ui.tests.AboutTest' ru.iteco.fmhandroid.test/androidx.test.runner.AndroidJUnitRunner```
 ## Документация
 
-1. [План автоматизации тестирования](https://github.com/YULLEN1/Diploma_Mobile_app_Hospis/blob/main/Plan.md)
+1. [План автоматизации тестирования](https://github.com/Bondaal/Diplom/blob/main/Plan.md)
    
 3. [Чек-лист](https://github.com/YULLEN1/Diploma_Mobile_app_Hospis/blob/main/Check.xlsx)
 
