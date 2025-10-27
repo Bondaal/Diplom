@@ -7,7 +7,7 @@
 
 2. Склонировать репозиторий
 
-```https://github.com/YULLEN1/Diploma_Mobile_app_Hospis``` 
+```https://github.com/Bondaal/Diplom``` 
 
 
 3. Установить приложение "Мобильный хоспис" на мобильное устройство.
@@ -21,7 +21,7 @@
 ## Инструкция по запуску
 1. Перейти в файл в для проверки тестирования:
 
-```fmh_android_15_03_24/app/src/androidTest/java/ru/iteco/fmhandroid/ui```
+```fmh_android_25_10_25/app/src/androidTest/java/ru/iteco/fmhandroid/ui```
 
 
 2. В терминале выполнить команду:
@@ -35,10 +35,10 @@
 
 1. [План автоматизации тестирования](https://github.com/Bondaal/Diplom/blob/main/Plan.md)
    
-3. [Чек-лист](https://github.com/YULLEN1/Diploma_Mobile_app_Hospis/blob/main/Check.xlsx)
+3. [Чек-лист](https://github.com/Bondaal/Diplom/blob/main/Check.xlsx)
 
    
-5. [Тест-кейсы](https://github.com/YULLEN1/Diploma_Mobile_app_Hospis/blob/main/Cases.xlsx)
+5. [Тест-кейсы](https://github.com/Bondaal/Diplom/blob/main/Cases.xlsx)
 
    
-7. [Отчёт о проведённом тестировании](https://github.com/YULLEN1/Diploma_Mobile_app_Hospis/blob/main/Result.md)
+7. [Отчёт о проведённом тестировании](https://github.com/Bondaal/Diplom/blob/main/Result.md)
