@@ -475,27 +475,34 @@ public class NewsTest extends TestCase {
     //  TC - 30 - Ручной ввод времени в поле "Время" (Time), при создании новости, во вкладке "Панель управления" (Control panel) мобильного приложения "Мобильный хоспис" (Позитивный).
     @Test
     public void testManualInputTimeCreatingNews() {
-        SystemClock.sleep(5000);
         buttonMainMenu.check(matches(isDisplayed()));
         buttonMainMenu.perform(click());
+        buttonNews.check(matches(isDisplayed()));
         buttonNews.perform(click());
+        buttonControlPanel.check(matches(isDisplayed()));
         buttonControlPanel.perform(click());
+        buttonAddNews.check(matches(isDisplayed()));
         buttonAddNews.perform(click());
-        SystemClock.sleep(1000);
+        categoryText.check(matches(isDisplayed()));
         categoryText.perform(click(), clearText(), replaceText("Нужна помощь"), closeSoftKeyboard());
-        SystemClock.sleep(1000);
+        fieldCreatingTitle.check(matches(isDisplayed()));
         fieldCreatingTitle.perform(click(), clearText(), replaceText("Пациентам"), closeSoftKeyboard());
+        buttonDateCreatingNews.check(matches(isDisplayed()));
         buttonDateCreatingNews.perform(replaceText(nextYear));
+        buttonTimeCreatingNews.check(matches(isDisplayed()));
         buttonTimeCreatingNews.perform(click());
+        manualInputTime.check(matches(isDisplayed()));
         manualInputTime.perform(click());
-        SystemClock.sleep(1000);
+        buttonOkTimeCreatingNews.check(matches(isDisplayed()));
         buttonOkTimeCreatingNews.perform(click());
+        fieldDescription.check(matches(isDisplayed()));
         fieldDescription.perform(replaceText("Сбор"), closeSoftKeyboard());
+        buttonSaveCreatingNews.check(matches(isDisplayed()));
         buttonSaveCreatingNews.perform(scrollTo(), click());
-        SystemClock.sleep(1000);
+        buttonClickNews.check(matches(isDisplayed()));
         buttonClickNews.perform(doubleClick());
-        onView(withIndex(withId(R.id.news_item_description_text_view), 0)).check(matches(withText("Сбор")));
-
+        onView(withIndex(withId(R.id.news_item_description_text_view), 0)).check(matches(
+            withText("Сбор")));
     }
 
     //  TC - 32 - Сортировка новостей во вкладке "Панель управления" (Control panel) мобильного приложения "Мобильный хоспис"
